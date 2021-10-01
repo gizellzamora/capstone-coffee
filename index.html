@@ -12,8 +12,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<body class="background">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,26 +39,76 @@
       </form>
     </nav>
   </nav>
-  <div class="container-fluid pt-3">
+  <div class="container-fluid">
     <div class="card-group">
-      <div class="card bg-white text-white">
-        <img src="coffee-cup.jpg" class="coffee-and-tea">
+      <div class="card text-white">
+        <img src="coffee-cup.jpg" class="coffee-and-tea img-fluid" width="576px">
         <div class="card-img-overlay text-center pt-5 mt-5">
           <h2 class="card-title fw-bold">
-          Shop Coffee!
+            Shop Coffee!
           </h2>
+          <p class="fw-light">
+            Roasted to perfection.
+          <br>
+            Delivered to your door.
+          </p>
           <button type="button" class="btn btn-light">Shop Now</button>
         </div>
       </div>
-      <div class="card bg-white text-white">
-        <img src="tea-cup.jpg" class="coffee-and-tea">
+      <div class="card text-white">
+        <img src="tea-cup.jpg" class="coffee-and-tea img-fluid">
         <div class="card-img-overlay text-center pt-5 mt-5">
           <h2 class="card-title fw-bold">
-          Shop Teas!
+            Shop Teas!
           </h2>
+          <p>
+            Hand-crafted from tea leaves, fruits,
+            <br>
+            herbs, and spices.
+          </p>
           <button type="button" class="btn btn-light">Shop Now</button>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <h3 class="text-center pt-4">
+        Freshness Guarantee
+      </h3>
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="text-center">
+            Hand Roasted beans when ordered.
+            </h4>
+            <p>
+              Our beans are roasted once your order is placed to guarantee quality taste.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="text-center">
+            Sealed for freshness.
+            </h4>
+            <p>
+              Each bag is tightly sealed and marked with our freshness mark.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="text-center">
+            Delivered Fresh.
+            </h4>
+            <p>
+              All beans are shipped on the same day that they are roasted to ensure best flavor.
+            </p>
+          </div>
+        </div>
     </div>
   </div>
 </body>
