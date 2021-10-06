@@ -24,3 +24,9 @@
 .card {
   background-color: transparent!important;
 }
+
+.card-img {
+  width: 55px!important;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
