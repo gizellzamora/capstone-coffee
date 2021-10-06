@@ -5,6 +5,7 @@
 
 .coffee-and-tea {
   opacity: 80%;
+  height: 100%!important;
 }
 
 .guarantee {
@@ -18,4 +19,8 @@
   margin-right: 15px;
   margin-left: 15px;
   padding-bottom: 1px;
+}
+
+.card {
+  background-color: transparent!important;
 }
