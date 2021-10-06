@@ -6,3 +6,16 @@
 .coffee-and-tea {
   opacity: 80%;
 }
+
+.guarantee {
+  color: black;
+  background-color: #B7B7A4;
+}
+
+.ending-back {
+  background-color: #A5A58D;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-bottom: 1px;
+}
